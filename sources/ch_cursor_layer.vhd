@@ -10,7 +10,7 @@
 -- Standard    : VHDL-2008
 -------------------------------------------------------------------------------
 -- Description : this layer module interfaces with the layer compositor and handles
---               horizontal cursor positions
+--               vertical cursor positions
 -------------------------------------------------------------------------------
 
 library IEEE;

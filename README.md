@@ -28,7 +28,7 @@ The scope of this project was to design the digital pipeline between an ADC expa
 
 ## Key Features
 **Oscilloscope**
-- Two-channel signal acquisition via 12-bit SPI ADC (Pmod AD1, AD7476) at up to 917.4 kSPS
+- Two-channel signal acquisition via 12-bit SPI ADC (Pmod AD1, [AD7476](https://www.analog.com/media/en/technical-documentation/data-sheets/AD7476_7477_7478.pdf)) at up to 917.4 kSPS
 - 0V to 3.3V voltage input range with 1.65V assumed signal bias voltage
 - Adaptive waveform reconstruction using Equivalent-Time Sampling (ETS) for full reconstruction of high-frequency signals
 - Rising-edge trigger detection fixed at 1.65V
@@ -44,7 +44,7 @@ The scope of this project was to design the digital pipeline between an ADC expa
 **Function Generator**
 - Two independent arbitrary function generator channels (sine, square, ramp/sawtooth) with frequency and amplitude control
 - User control interface for signal type, amplitude, and frequency adjustment for each output channel
-- 12-bit SPI DAC output stage (Pmod DA2, DAC121S101) for generating waveforms at up to 925.9 kSPS
+- 12-bit SPI DAC output stage (Pmod DA2, [DAC121S101](https://www.ti.com/lit/ds/symlink/dac121s101-q1.pdf?ts=1786128322154&ref_url=https%253A%252F%252Fwww.google.com%252F)) for generating waveforms at up to 925.9 kSPS
 
 <p align="center">
   <img src="images/screen.png" width="400">
